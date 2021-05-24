@@ -1,7 +1,81 @@
+:root {
+  --background-color: #ffffff;
+  --accent-color: #18a0fb;
+  --main-font-color: #000000;
+  --second-font-color: rgba(0, 0, 0, 0.8);
+}
 body {
-  background-color: #e5e5e5;
-  color: black;
+  background-color: var(--background-color);
+  color: var(--main-font-color);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.015em;
 }
 .container {
   width: 1680px;
+}
+.logo {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28.4444px;
+  line-height: 32px;
+}
+.item {
+  display: inline;
+}
+.link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.buttons {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.buttons.main {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  border: none;
+}
+.buttons.second {
+  color: var(--accent-color);
+  background-color: var(--background-color);
+  box-sizing: border-box;
+  border: 1px solid #18a0fb;
+}
+h1 {
+  font-size: 56px;
+  line-height: 80px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.text {
+  color: var(--second-font-color);
+  font-size: 18px;
+  line-height: 30px;
+}
+.title {
+  display: none;
+}
+.sign-up {
+  background: #f5f5f5;
+}
+.footer .link {
+  color: var(--main-font-color);
 }
